@@ -122,7 +122,7 @@ class TP04Q07 {
                 Celula auxH_m = m.inicio;
                 // I e J são respectivamente linha e coluna de C (Cij)
                 // N é o numero de colunas de A ou linhas de B
-                // C(i,j) = ∑ A(i,n) * B(n,j)
+                // C(i,j) = A(i,n) * B(n,j), num loop
                 for(int i=0;i<resp.linha;i++){
                     for(int j=0; j<resp.coluna; j++){
                         multiplicacao(i, j, m);
